@@ -313,10 +313,7 @@ class SmartHome {
             command.includes('เปิดทั้งหมด') || 
             command.includes('ห้องมืดจังว้ะ') || 
             command.includes('ห้องมืดจังวะ') || 
-            command.includes('ห้องมืดจังอะ') || 
-            command.includes('ควยใหญ่') || 
-            command.includes('ผมรักในหลวง') || 
-            command.includes('พี่จ๋าไม่ไหวแล้ว') || 
+            command.includes('ห้องมืดจังอะ') ||
             command.includes('เปิดไฟทุก') ||
             command.includes('เปิดหมด') ||
             (command.includes('เปิด') && command.includes('ทั้งหมด'))) {
@@ -327,8 +324,6 @@ class SmartHome {
         // คำสั่งปิดไฟทั้งหมด - รองรับหลายรูปแบบ
         if (command.includes('ปิดไฟทั้งหมด') || 
             command.includes('ปิดทั้งหมด') || 
-            command.includes('ควยเล็ก') || 
-            command.includes('พวกล้มเจ้า') || 
             command.includes('ปิดไฟทุก') ||
             command.includes('ปิดหมด') ||
             (command.includes('ปิด') && command.includes('ทั้งหมด'))) {
